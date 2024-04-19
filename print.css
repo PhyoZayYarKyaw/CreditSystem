@@ -1,0 +1,34 @@
+@page{
+	size: A4;
+	margin-top: .5in;
+	margin-bottom: 1in;
+	margin-left: 1in;
+	font-family: "Times New Roman" !important;
+}
+
+
+#print-btn{
+	display:none;
+	visibility: none;
+}
+
+@media print{
+	input[type="radio"]{
+		display:none;
+		visibility: none;
+	}
+
+	body {
+		font-family: "Times New Roman";
+		font-size : 13px;
+	}
+	
+
+	#mydiv{
+		display:none;
+		visibility: none;
+	}
+}
+
+
+
